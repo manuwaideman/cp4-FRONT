@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    height: 90px;
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid lightblue;
+}
+
+header h1{
+    margin-left: 20px;
+}
+
+figure{
+    position: relative;
+}
+
+figure img{
+    padding: 10px;
+}
+
+figure figcaption{
+    position: absolute;
+    bottom: 4px;
+    width: 780px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+
+figure figcaption p{
+    color: white;
+    padding: 10px;
+    display: flex;
+    background: lightskyblue;
+}
+aside details{
+    padding-top: 10px;
+    width: 790px;
+    
+}
+details summary{
+    color: white;
+    background: black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+details ul{
+    padding-top: 10px;
+}
+
+details ul li{
+    font-weight: bold;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 8px;
+}
